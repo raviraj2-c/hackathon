@@ -1,0 +1,320 @@
+/* code from google font - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* every thing writtrn in this is for cumplet page */
+:root{
+    --green: rgb(93, 94, 93);
+    --but: rgb(163, 196, 179);
+    --black-color: #130f40;
+    --light-color: #666;
+    --box-shadow: 0.1rem .5rem rgba(0,0,0,.1);
+    --border: .2rem solid rgb(210, 200, 200);
+    --outline: .1rem solid rgba(0,0,0.1);
+}
+/* every thing writtrn in this is for cumplet page */
+
+*{
+    font-family: 'Poppins', sans-serif;
+    /* code from google font - poppins */
+    
+    /* THIS CODE for body */
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+/* for common */
+section
+{
+    padding: 2rem 9%;
+}
+
+.heading {
+text-align: center;
+padding: 2rem 0;
+padding-bottom: 3rem;
+font-size: 3.5rem;
+color: var(--black-color);
+}
+/* for common */
+html{
+    font-size: 62.5%;
+     overflow-x: hidden;
+     scroll-behavior: smmooth;
+     scroll-padding-top: 7rem;
+}
+body{
+    background: #fff;
+}
+
+
+.ember
+{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border: 0px solid;
+}
+
+.ember .name
+{
+    padding: 2rem 2rem;
+    background-color: #666;
+    border: 1px solid;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+
+.heading span
+{
+    background: black;
+    color: #fff;
+    padding: .5rem 3rem;
+display: inline-block;
+clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.items .box-container
+{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.items .box-container .box
+{
+    border: 0px solid;
+    padding: .9rem .5rem;
+    background: #fff;
+    outline: var(--outline);
+outline-offset: -1rem;
+text-align: center;
+box-shadow: var(--box-shadow);
+}
+.items .box-container .box:hover
+{
+box-shadow: 1px 1px 10px 4px var(--green);
+}
+.items .box-container .box img
+{
+    margin: 1rem 0;
+    height: 15rem;
+    width: 15rem;
+}
+.items .box-container .box h3
+{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+}
+.items .box-container .box p
+{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1.6rem;
+}
+.items .box-container .box i
+{
+    color: #d9fe03;
+    font-size: 1.7rem;
+}
+
+.btu{
+    border: .2rem solid var(--black-color);
+        margin-top: 1rem;
+        display: inline-block;
+        padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    color: var(--black-color);
+    cursor: pointer;
+    background: none;
+    }
+    .btu:hover
+    {
+    background: var(--but);
+        color: white;
+    }
+/* css code for items */
+
+
+/* footer section */
+.footer
+{
+    background: black;
+}
+.footer p
+{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-details {
+    display: flex;
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.product-title {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.product-price {
+    font-size: 24px;
+    color: green;
+}
+
+.product-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product-options select {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.quantity input {
+    padding: 10px;
+    width: 60px;
+}
+
+.add-to-cart {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #f60;
+}
+
+.review .review-slider
+{
+    border: 0px solid;
+    padding: 1rem;
+}
+
+.review .review-slider .box
+{
+    border: 0px solid red;
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+.review .review-slider .box:hover
+{
+    box-shadow: 1px 1px 10px 4px var(--green);   
+}
+.review .review-slider .box img
+{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* footer section */
+
+@media (max-width: 768px)
+{
+    #menu-btn
+{
+    display: inline-block;
+}
+.header .search-form
+{
+    width: 90%;
+}
+    .header .navbar
+    {
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem ;
+        background: #fff;
+    }
+    .header .navbar a 
+{
+    font-size: 2rem;
+    margin: 2rem 2.5rem;
+    display: block;
+}
+section
+
+    {
+       padding: 2rem; 
+    }
+}
+.header .navbar.active
+{
+    right: 2rem;
+    transition: .4s linear;
+} 
+ 
+@media (max-width: 450px)
+{
+    html{
+        font-size: 50%;
+    } 
+    section
+    {
+       padding: 2rem; 
+    }
+    .heading
+    {
+        font-size: 2.5rem;
+    }
+}
+/* to make our webside fit to mobile */

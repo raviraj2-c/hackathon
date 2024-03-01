@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(236, 243, 247);
+}
+.pay{
+    display: flex;
+}
+
+.detail
+{
+    border: 0px solid;
+    background-color: #fff;
+    width: 60rem;
+}
+.detail .address
+{
+    width: 55rem;
+    padding-left: 3rem;
+}
+.detail .address h3
+{
+    font-size: 2rem;
+    color: rgb(193, 136, 29);
+}
+
+.detail .address .your
+{
+    border: 1px solid #5f5e5e;
+    border-radius: .3rem;
+    padding: 2rem 2rem;
+}
+.detail .address .your h4
+{
+    font-size: 1.4rem;
+}
+
+.detail .address .your select
+{
+    background-color: rgb(247, 220, 170);
+}
+.payment .your .apply
+{
+    padding: .5rem 1.5rem;
+}
+.payment .your button
+{
+    font-size: 1.2rem;
+    background-color: #b1b0b0;
+}
+.payment .your select
+{
+    padding: .8rem 6.3REM;
+    background-color: antiquewhite;
+  
+}
+
+.totel 
+{
+    position: absolute;
+    right: 2rem;
+    width: 25rem;
+    float: right;
+    
+}
+.totel .totels
+{
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: .2rem;
+}
+
+.totel .totels button
+{
+    padding: .8rem 5rem;
+    font-size: 1.2rem;
+    background-color: rgb(249, 188, 45);
+    border-radius: .2rem;
+    left: 25%;
+    top: 2%;
+    position: absolute;
+    border: 1px solid rgb(249,188,45);
+}
+
+.totel .totels p
+{
+    padding: 3rem 3rem ;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.totel .totels h4
+{
+    padding: .7rem 2rem;
+    font-size: 1.2rem;
+}
+
+.totel .totels h3
+{
+    padding: .7rem 2rem;
+    font-size: 1.5rem;
+    color: rgb(192, 130, 15);
+}
